@@ -1,0 +1,50 @@
+header{
+    background-image: url(./3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-nav {
+    margin-left: auto;   
+}
+.navbar-nav .nav-item{
+    margin-right: 15px;
+}
+.text-white{
+    color: rgb(9, 9, 9);
+}
+h1,h3{
+    color: azure;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.d-flex{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.card-conatiner{
+    display: flex;
+    margin-left: 10px;
+}
+.card-space{
+    margin-right: 20px;
+}
+.cared-body{
+    color: lightgrey;
+}
+a{
+    color: slateblue;
+}
+@media screen and (min-width:375px)and (max-width:667px) {
+    .card-conatiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .card{
+        margin: 10px;
+    }
+    
+}
